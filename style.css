@@ -1,0 +1,78 @@
+body {
+  background: #0d0d0d;
+  color: #eaeaea;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  width: min(600px, 90vw);
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-family: "Playwrite ID", cursive;
+  font-weight: 400;
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+button {
+  font-family: "Geomini", sans-serif;
+  background: transparent;
+  border: 1px solid #555;
+  color: #eaeaea;
+  padding: 0.6rem 1.4rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+button:hover {
+  border-color: #fff;
+  color: #fff;
+}
+
+button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#generateStoryBtn {
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+.main-container > div:nth-of-type(1) {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+#aiThinkText {
+  min-height: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+#aiThinkTextP {
+  font-size: 1.1rem;
+  opacity: 0.7;
+}
+
+#storyOutput {
+  font-family: "Geomini", sans-serif;  
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+  border-top: 1px solid #333;
+  padding-top: 1.5rem;
+}
