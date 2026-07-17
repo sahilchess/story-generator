@@ -51,4 +51,5 @@ model used: nvidia nemotron 3 ultra, free on hack club ai.
 ## credits
 
 built with hack club's free ai api [here](ai.hackclub.com) and hosted on nest, hack club's free hosting
+
 built for [onekey ysws](onekey.hackclub.com)
